@@ -1,0 +1,77 @@
+.container {
+  width: 90%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.weatherInfo {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #ffffffaa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.weatherInfo h2 {
+  margin: 8px 0;
+  font-size: 1.2rem;
+}
+.input {
+  padding: 10px;
+  width: 60%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #00acc1;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #00838f;
+}
+.resetButton {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ef5350;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.resetButton:hover {
+  background-color: #c62828;
+}
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
